@@ -1,8 +1,20 @@
 .header {
-    min-height: 52px;
-    width: 1184px;
-    padding: 52px 48px 0;
+    padding-top: 28px;
+    margin: 0 48px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px){
+    .header {
+        margin: 0 24px;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .header {
+        margin: 0 16px;
+    }
 }

@@ -2,3 +2,13 @@
     width: 1184px;
     padding: 0 48px 0;
 }
+
+.photo-grid__list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+}
+
+.photo-grid__lists {
+    list-style: none;
+}
