@@ -2,7 +2,6 @@
     padding-top: 28px;
     margin: 0 48px;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
@@ -16,5 +15,6 @@
 @media screen and (max-width: 425px){
     .header {
         margin: 0 16px;
+        padding-top: 16px;
     }
 }
