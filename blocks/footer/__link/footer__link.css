@@ -6,4 +6,20 @@
     font-style: normal;
     text-decoration: none;
     margin-right: 18px;
+    transition: opacity 1s linear;
+}
+.footer__link:hover {
+    opacity: 50%;
+}
+
+.footer__link:last-child {
+    margin-bottom: 48px;
+}
+
+@media screen and (max-width: 425px) {
+    .footer__link {
+        font-size: 24px;
+        line-height: 24px;
+        margin-bottom: 32px;
+    }
 }
