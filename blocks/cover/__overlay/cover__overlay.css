@@ -8,6 +8,7 @@
     color: white;
     background-position: center;
     position: relative;
+    text-decoration: none;
     background-image: url(../../../images/cover-trains.jpg);
 }
 
