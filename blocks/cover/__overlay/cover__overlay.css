@@ -1,5 +1,5 @@
 .cover__overlay {
-    height: 740px;
+    min-height: 740px;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -9,12 +9,12 @@
     background-position: center;
     position: relative;
     text-decoration: none;
+    transition: 3s;
     background-image: url(../../../images/cover-trains.jpg);
 }
 
 .cover__overlay:hover:before {
     opacity: 0.8;
-    transition: 3s;
 }
 
 .cover__overlay:before {
@@ -24,6 +24,7 @@
     width: 100%;
     z-index: 1;
     opacity: 0.3;
+    transition: 3s;
     background-color: #2A2C2F;
 }
 

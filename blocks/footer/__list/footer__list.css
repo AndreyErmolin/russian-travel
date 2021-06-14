@@ -1,4 +1,4 @@
-.footer__columns {
+.footer__list {
     margin-bottom: 24px;
     list-style-type: none;
     display: flex;
@@ -6,13 +6,13 @@
 }
 
 @media screen and (max-width: 600px) {
-    .footer__columns {
+    .footer__list {
         display: block;
     }
 }
 
 @media screen and (max-width: 425px) {
-    .footer__columns {
+    .footer__list {
         display: flex;
         flex-direction: column;
         margin: 0;
