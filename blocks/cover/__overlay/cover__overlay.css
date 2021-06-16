@@ -1,5 +1,5 @@
 .cover__overlay {
-    min-height: 740px;
+    height: 740px;
     background-size: cover;
     display: flex;
     flex-direction: column;
